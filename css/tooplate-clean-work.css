@@ -631,7 +631,13 @@ strong {
   height: 80px;
   padding: 15px;
 }
-
+@media only screen and (max-width: 600px) {
+  .logo {
+    max-width: 120px; /* Mobilde maksimum genişlik */
+    max-height: 65px; /* Mobilde maksimum yükseklik */
+    padding: 10px;
+  }
+}
 .navbar-expand-lg .navbar-nav .nav-link {
   margin: 20px;
   padding: 0;
